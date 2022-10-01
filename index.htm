@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class=" fszzdqmf idc0_343"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="data_files/w3.css">
+<link rel="stylesheet" href="data_files/w3-theme-black.css">
+<link rel="stylesheet" href="data_files/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>CCC Services Cambridge</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Get in touch</a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="data_files/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <h1 style="color: white;">CCC SERVICES CAMBRIDGE</h1>
+    <h2 style="color: white;">YOUR LOCAL FIRE AND SECURITY PARTNER</h2>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>Meet the employees of CCC Services Cambridge</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="data_files/stephen.lleg.jpg" alt="Stephen Lleg" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Stephen Lleg</h3>
+  <p>Founder</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="data_files/paul.jensford.jpg" alt="Paul Jensford" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Paul Jensford</h3>
+  <p>Fire Alarm Engineer</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="data_files/richard.lewis.jpg" alt="Richard Lewis" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Richard Lewis</h3>
+  <p>Intruder Alarm Engineer</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="data_files/sandra.taylor.jpg" alt="Sandra Taylor" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Sandra Taylor</h3>
+  <p>Finance & Customer Relations</p>
+</div>
+
+<div>
+  <h2>Vacancies</h2>
+  <p>There are no vacancies currently open.</p>
+  <p>Thank you for your interest.</p>
+  <p>We will update this page if this changes.</p>
+</div>
+
+</div>
+</div>
+
+<!-- Contact Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="contact">
+
+<div class="w3-half">
+<h2>Get in touch</h2>
+<p>Are you looking for fire or intruder alarm installation, servicing or repair? Get in touch to learn more about how we can help you.</p>
+
+<p>Email stephen.lleg@cccservicescambridge.co.uk to enquire.</p>
+</div>
+
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Copyright 2022 CCC Services Limited</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+</body></html>
